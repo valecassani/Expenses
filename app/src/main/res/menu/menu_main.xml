@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/MENU_1"
+        android:title="Nuovo"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/MENU_2"
+        android:title="Elenco"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom|collapseActionView"/>
+</menu>
